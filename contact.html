@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+
+    <title>Melodie Chi</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style-flexbox.css">
+   
+</head>
+<body>
+
+    <div class="container"> <!-- wraps around everything except footer -->
+
+            <div class="header-div">
+                <header>
+                    <!-- colored background for name -->
+                    <div id="name-bg">
+                        <h1>Melodie Chi</h1>
+                    </div>
+
+                    <!-- nav bar -->
+                     <nav>
+                        <ul>
+                            <li id="about"><a href="./index.html">About</a></li>
+                            <li class="nav-divider">|</li>
+                            <li id="portfolio"><a href="./portfolio.html">Portfolio</a></li>
+                            <li class="nav-divider">|</li>
+                            <li id="contact"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div> <!-- /.header-div -->
+
+            <div class="wrapper"> <!-- wraps around section & aside -->
+            
+                <div class="section-div" id="contact-div"> <!-- main section (excludes aside) -->
+                     <section>
+                        <h2>Contact</h2>
+                        <hr id="section-ruler" />
+                        <form action="#" method="post">
+                            Name
+                            <br />
+                            <input class="input-field" type="text" name="fullname" placeholder="Jane Smith" required="required" autofocus="autofocus" />
+                            <br /> Email
+                            <br />
+                            <input class="input-field" type="email" name="email" placeholder="example@gmail.com" required="required" />
+                            <br /> Message
+                            <br />
+                            <textarea class="input-field" name="message" rows="15" cols="80" required="required"></textarea>
+                            <br />
+                            <input type="submit" value="Submit" />
+                        </form>
+                    </section>
+                </div>
+                
+                <div class="aside-div">
+                    <aside>
+                        <h3>Connect with Me</h3>
+                        <hr id="aside-ruler" />
+                        <!-- social media icons -->
+                        <ul> 
+                            <li><a href="https://github.com/cheesysaurus" target="_blank"><img src="./assets/images/icon/github/if_github_circle_greyblue.svg" alt="github logo" /></a></li>
+                            <li><a href="https://www.linkedin.com/in/melodiechi/" target="_blank"><img src="./assets/images/icon/linkedin/if_linkedin_circle_greyblue.svg" alt="linkedin logo" /></a></li>
+                            <li><a href="https://stackoverflow.com/users/8455866/chzwzrd?tab=profile" target="_blank"><img id="stackoverflow" src="./assets/images/icon/stackoverflow/if_stackoverflow_circle_greyblue.svg" alt="stackoverflow logo" /></a></li>
+                        </ul>
+                    </aside>
+                </div> <!-- /.aside-div -->
+
+            </div> <!-- /.wrapper -->
+
+    </div> <!-- /.container -->
+
+    <!-- <div class="push"></div> to push footer down -->   
+
+    <div class="footer-div">
+        <footer>&copy; Copyright 2017 Melodie Chi</footer>
+    </div>
+
+</body>
+</html>
