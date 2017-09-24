@@ -361,6 +361,22 @@ footer {
 		margin-bottom: -100px;
 	}
 
+	/* Portfolio */
+	.gallery img {
+		width: 480px;
+		height: 335px;
+	}
+
+	.caption-div {
+		width: 480px;
+		height: 50px;
+		bottom: 65px;
+	}
+
+	figcaption {
+		padding-top: 3.4%;
+	}
+
 	/**
 	/* Aside
 	**/
