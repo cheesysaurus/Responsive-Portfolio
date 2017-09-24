@@ -344,8 +344,8 @@ footer {
 	}
 
 	.section-div {
-		width: 580px;
-		margin: auto 25px 40px;
+		width: 347px;
+		margin: auto 20px 40px;
 	}
 
 	h2 {
@@ -356,25 +356,42 @@ footer {
 	#bio-pic {
 		display: block;
 		width: 100%;
-		clip-path: inset(60px 0 120px 0);
-		margin-top: -45px;
-		margin-bottom: -100px;
+		clip-path: inset(38px 0 100px 0);
+		margin-top: -32px;
+		margin-bottom: -88px;
+	}
+
+	section p {
+		line-height: 28px;
 	}
 
 	/* Portfolio */
+	#portfolio-div {
+		padding: 34px 32px;
+	}
+
+	.portfolio-ruler {
+		width: 280px;
+	}
+
+	.gallery {
+		margin-left: -18px;
+	}
+
 	.gallery img {
-		width: 480px;
-		height: 335px;
+		margin-bottom: -15px;
+		width: 280px;
+		height: 200px;
 	}
 
 	.caption-div {
-		width: 480px;
-		height: 50px;
-		bottom: 65px;
+		width: 280px;
+		height: 40px;
+		bottom: 40px;
 	}
 
 	figcaption {
-		padding-top: 3.4%;
+		padding-top: 3.6%;
 	}
 
 	/**
@@ -382,13 +399,13 @@ footer {
 	**/
 	.aside-div {
 		display: block;
-		width: 580px;
-		margin: auto 25px;
+		width: 347px;
+		margin: auto 20px;
 	}
 
 	aside ul {
 		display: flex;
-		width: 33.5%;
+		width: 60%;
 		margin: auto;
 	}
 
