@@ -117,7 +117,7 @@ hr#section-ruler {
 
 /* --- ABOUT --- */
 
-#bio-pic {
+#prof-img {
 	float: left;
 	width: 170px;
 	margin-top: 10px;
@@ -297,12 +297,162 @@ footer {
 	color: #999;
 	font-size: 0.75em; /* 12px / 16px = 0.75 */
 	text-align: center;
-	margin-top: 26px;
+	margin-top: 27px;
 }
 
 /* ----------------------
 		 @MEDIA
 ----------------------- */
+
+/* --- Desktop (960px width --> 20px cushion) --- */
+@media screen and (max-width: 980px) {
+
+	/**
+	/* Header
+	**/
+	#name-bg {
+		margin-left: 130px;
+	}
+
+	nav {
+		margin-right: 125px;
+	}
+
+	/**
+	/* Section
+	**/
+	.section-div {
+		width: 435px;
+		margin-left: 125px;
+	}
+
+	/* About */
+	#prof-img {
+		display: block;
+		width: 100%;
+		clip-path: inset(50px 0 140px 0);
+		margin-top: -44px;
+		margin-bottom: -128px;
+	}
+
+	/* Portfolio */
+	.portfolio-ruler {
+		width: 370px;
+	}
+	.gallery {
+		margin-left: -13px;
+	}
+	.gallery img {
+		margin-bottom: -10px;
+		width: 360px;
+		height: 250px;
+	}
+
+	.caption-div {
+		width: 360px;
+		height: 40px;
+		bottom: 45px;
+	}
+
+	figcaption {
+		padding-top: 3.1%;
+	}
+
+}
+
+/* --- Tablet --- */
+@media screen and (max-width: 768px) {
+
+	/**
+	/* Header
+	**/
+	#name-bg {
+		margin-left: 25px;
+	}
+	nav {
+		margin-right: 23px;
+	}
+
+	/**
+	/* Section
+	**/
+	.wrapper {
+		display: block;
+		width: 100vh;
+		margin: auto;
+	}
+
+	.section-div {
+		width: 715px;
+		margin: auto 25px 40px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	/* About */
+	#prof-img {
+		width: 180px;
+		clip-path: inset(15px 0 35px 0);
+		margin-top: -5px;
+		margin-bottom: -30px;
+	}
+
+	section p {
+		line-height: 30px;
+	}
+
+	/* Portfolio */
+	#portfolio-div {
+		padding: 34px 32px;
+	}
+
+	.portfolio-ruler {
+		width: 645px;
+	}
+
+	.gallery {
+		margin-top: 15px;
+		margin-left: 10px;
+	}
+
+	.gallery img {
+		margin-bottom: -10px;
+		width: 280px;
+		height: 200px;
+	}
+
+	.caption-div {
+		width: 280px;
+		height: 40px;
+		bottom: 40px;
+	}
+
+	figcaption {
+		padding-top: 3.6%;
+	}
+
+	/**
+	/* Aside
+	**/
+	.aside-div {
+		display: block;
+		width: 715px;
+		margin: auto 25px;
+	}
+
+	aside ul {
+		display: flex;
+		width: 28%;
+		margin: auto;
+	}
+
+	aside ul li {
+		flex: 1 0 auto;
+	}
+
+}
 
 /* --- Phone --- */
 @media screen and (max-width: 640px) {
@@ -310,7 +460,7 @@ footer {
 	/**
 	/* Header
 	**/
-	header {
+	.header-div {
 		position: static;
 		margin-bottom: 0;
 		border: none;
@@ -353,7 +503,7 @@ footer {
 	}
 
 	/* About */
-	#bio-pic {
+	#prof-img {
 		display: block;
 		width: 100%;
 		clip-path: inset(38px 0 100px 0);
@@ -412,15 +562,5 @@ footer {
 	aside ul li {
 		flex: 1 0 auto;
 	}
-
-}
-
-/* --- Tablet --- */
-@media screen and (max-width: 768px) {
-
-}
-
-/* --- Desktop (960px width --> 20px cushion) --- */
-@media screen and (max-width: 980px) {
 
 }
