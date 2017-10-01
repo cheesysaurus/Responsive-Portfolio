@@ -384,14 +384,8 @@ footer {
 	/**
 	/* Section
 	**/
-	.wrapper {
-		display: block;
-		width: 100vh;
-		margin: auto;
-	}
-
 	.section-div {
-		width: 715px;
+		width: 710px;
 		margin: auto 25px 40px;
 	}
 
@@ -502,7 +496,7 @@ footer {
 	}
 
 	.section-div {
-		width: 347px;
+		width: 585px;
 		margin: auto 20px 40px;
 	}
 
@@ -514,9 +508,9 @@ footer {
 	#prof-img {
 		display: block;
 		width: 100%;
-		clip-path: inset(38px 0 100px 0);
-		margin-top: -32px;
-		margin-bottom: -88px;
+		clip-path: inset(60px 0 190px 0);
+		margin-top: -50px;
+		margin-bottom: -170px;
 	}
 
 	section p {
@@ -529,27 +523,31 @@ footer {
 	}
 
 	.portfolio-ruler {
-		width: 280px;
+		width: 515px;
 	}
 
 	.gallery {
-		margin-left: -18px;
+		margin-left: -15px;
 	}
 
 	.gallery img {
 		margin-bottom: -15px;
-		width: 280px;
-		height: 200px;
+		width: 100%;
+		height: 100%;
+	}
+
+	#hangman {
+		width: 515px;
 	}
 
 	.caption-div {
-		width: 280px;
+		width: 515px;
 		height: 40px;
-		bottom: 40px;
+		bottom: 60px;
 	}
 
 	figcaption {
-		padding-top: 3.6%;
+		padding-top: 2.3%;
 	}
 
 	/**
@@ -557,13 +555,13 @@ footer {
 	**/
 	.aside-div {
 		display: block;
-		width: 347px;
+		width: 585px;
 		margin: auto 20px;
 	}
 
 	aside ul {
 		display: flex;
-		width: 60%;
+		width: 33%;
 		margin: auto;
 	}
 
